@@ -9,11 +9,7 @@
 import Foundation
 
 public class SwiftExtensions {
-    public func nothing() {
-    }
-}
-
-public extension String {
+    extension String {
     
     public func filter(predicate: Character -> Bool) -> String {
         var result = String()
@@ -26,3 +22,6 @@ public extension String {
     }
     
 }
+}
+
+
