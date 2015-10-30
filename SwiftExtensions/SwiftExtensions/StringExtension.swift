@@ -10,7 +10,9 @@ import Foundation
 
 public extension String {
     
-    public func filter(predicate: Character -> Bool) -> String {
+    var length: Int { return count(self) }
+    
+    func filter(predicate: Character -> Bool) -> String {
         var result = String()
         for character in self.characters {
             if predicate(character) {
