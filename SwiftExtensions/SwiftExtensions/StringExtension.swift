@@ -8,6 +8,11 @@
 
 import Foundation
 
+public class SwiftExtensions {
+    public func nothing() {
+    }
+}
+
 public extension String {
     
     public func filter(predicate: Character -> Bool) -> String {
