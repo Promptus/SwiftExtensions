@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     
     public func filter(predicate: Character -> Bool) -> String {
         var result = String()
