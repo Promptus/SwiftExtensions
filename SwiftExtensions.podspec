@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.author       = { 'Razvan Benga' => 'razvanb@fortech.ro' }
   s.platform     = :ios, '8.0'
   s.source       = { :git => 'https://github.com/Promptus/SwiftExtensions.git', :tag => s.version  }
-  s.deployment_target = '8.0'
-  s.source_files = 'SwiftExtensions/*.swift'
+  s.ios.deployment_target = '8.0'
+  s.source_files = 'SwiftExtensions/**/*.swift'
   s.requires_arc = true
   
 end
