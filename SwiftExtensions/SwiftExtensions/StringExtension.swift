@@ -8,10 +8,9 @@
 
 import Foundation
 
-public class SwiftExtensions {
-    extension String {
+public extension String {
     
-    public func filter(predicate: Character -> Bool) -> String {
+    func filter(predicate: Character -> Bool) -> String {
         var result = String()
         for character in self.characters {
             if predicate(character) {
@@ -22,6 +21,4 @@ public class SwiftExtensions {
     }
     
 }
-}
-
 
