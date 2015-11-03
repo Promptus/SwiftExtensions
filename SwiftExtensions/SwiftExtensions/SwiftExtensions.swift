@@ -10,6 +10,12 @@ import Foundation
 
 public class SwiftHelper {
     
+    public var shit: String {
+        get {
+            return "Shit"
+        }
+    }
+    
     public func filterString(string: String, predicate: Character -> Bool) -> String {
         var result = String()
         for character in string.characters {
