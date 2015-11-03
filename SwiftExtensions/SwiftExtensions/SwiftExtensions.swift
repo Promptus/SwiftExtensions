@@ -1,18 +1,18 @@
 //
-//  StringExtension.swift
+//  SwiftExtensions.swift
 //  SwiftExtensions
 //
-//  Created by Razvan Benga on 10/30/15.
+//  Created by Razvan Benga on 03/11/15.
 //  Copyright © 2015 Razvan Benga. All rights reserved.
 //
 
 import Foundation
 
-extension String {
+public class SwiftHelper {
     
-    func filter(predicate: Character -> Bool) -> String {
+    public func filterString(string: String, predicate: Character -> Bool) -> String {
         var result = String()
-        for character in self.characters {
+        for character in string.characters {
             if predicate(character) {
                 result.append(character)
             }
@@ -21,4 +21,3 @@ extension String {
     }
     
 }
-
