@@ -12,6 +12,8 @@
 		A53F890E1BE365E5003ADBD6 /* SwiftExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F890D1BE365E5003ADBD6 /* SwiftExtensionsTests.swift */; };
 		A53F89191BE36659003ADBD6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F89181BE36659003ADBD6 /* StringExtension.swift */; settings = {ASSET_TAGS = (); }; };
 		A53F891A1BE36659003ADBD6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F89181BE36659003ADBD6 /* StringExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		E5F3CCFC1BE8F35F003A1EB0 /* NSString+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F3CCFA1BE8F35F003A1EB0 /* NSString+Extensions.h */; settings = {ASSET_TAGS = (); }; };
+		E5F3CCFD1BE8F35F003A1EB0 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3CCFB1BE8F35F003A1EB0 /* NSString+Extensions.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		A53F890D1BE365E5003ADBD6 /* SwiftExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionsTests.swift; sourceTree = "<group>"; };
 		A53F890F1BE365E5003ADBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A53F89181BE36659003ADBD6 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E5F3CCFA1BE8F35F003A1EB0 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		E5F3CCFB1BE8F35F003A1EB0 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 			children = (
 				A53F89011BE365E5003ADBD6 /* SwiftExtensions.h */,
 				A53F89181BE36659003ADBD6 /* StringExtension.swift */,
+				E5F3CCFA1BE8F35F003A1EB0 /* NSString+Extensions.h */,
+				E5F3CCFB1BE8F35F003A1EB0 /* NSString+Extensions.m */,
 				A53F89031BE365E5003ADBD6 /* Info.plist */,
 			);
 			path = SwiftExtensions;
@@ -97,6 +103,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F3CCFC1BE8F35F003A1EB0 /* NSString+Extensions.h in Headers */,
 				A53F89021BE365E5003ADBD6 /* SwiftExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A53F89191BE36659003ADBD6 /* StringExtension.swift in Sources */,
+				E5F3CCFD1BE8F35F003A1EB0 /* NSString+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +397,7 @@
 				A53F89141BE365E5003ADBD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53F89151BE365E5003ADBD6 /* Build configuration list for PBXNativeTarget "SwiftExtensionsTests" */ = {
 			isa = XCConfigurationList;
@@ -397,6 +406,7 @@
 				A53F89171BE365E5003ADBD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
