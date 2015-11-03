@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double SwiftExtensionsVersionNumber;
 FOUNDATION_EXPORT const unsigned char SwiftExtensionsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SwiftExtensions/PublicHeader.h>
-
+#import <StringExtension.swift>
 
