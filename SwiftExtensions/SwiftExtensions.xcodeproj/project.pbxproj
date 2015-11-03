@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A53F89021BE365E5003ADBD6 /* SwiftExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A53F89011BE365E5003ADBD6 /* SwiftExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A53F89091BE365E5003ADBD6 /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53F88FE1BE365E5003ADBD6 /* SwiftExtensions.framework */; settings = {ASSET_TAGS = (); }; };
 		A53F890E1BE365E5003ADBD6 /* SwiftExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F890D1BE365E5003ADBD6 /* SwiftExtensionsTests.swift */; };
 		A53F89191BE36659003ADBD6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53F89181BE36659003ADBD6 /* StringExtension.swift */; settings = {ASSET_TAGS = (); }; };
@@ -29,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		A53F88FE1BE365E5003ADBD6 /* SwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A53F89011BE365E5003ADBD6 /* SwiftExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftExtensions.h; sourceTree = "<group>"; };
 		A53F89031BE365E5003ADBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A53F89081BE365E5003ADBD6 /* SwiftExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53F890D1BE365E5003ADBD6 /* SwiftExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionsTests.swift; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 		A53F89001BE365E5003ADBD6 /* SwiftExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				A53F89011BE365E5003ADBD6 /* SwiftExtensions.h */,
 				A53F89181BE36659003ADBD6 /* StringExtension.swift */,
 				E53202BB1BE8F8F000712410 /* SwiftExtensions.swift */,
 				E5F3CCFA1BE8F35F003A1EB0 /* NSString+Extensions.h */,
@@ -107,7 +104,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5F3CCFC1BE8F35F003A1EB0 /* NSString+Extensions.h in Headers */,
-				A53F89021BE365E5003ADBD6 /* SwiftExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
